@@ -1,0 +1,26 @@
+body{
+    display: flex;
+}
+button{
+    border-radius: 10px;
+    background: orange;
+    color: white;
+}
+.card{
+    background: green;
+    text-align: center;
+}
+img{
+    width: 200px;
+}
+#circle{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.resultado{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
