@@ -8,6 +8,36 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="card" style="width: 400px; height:400px;">
+        <img src="assets/img/Notebook-Gamer-04-removebg-preview.png" class="card-img-top" alt="imagen de notebook marca msi">
+        <div class="card-body">
+          <h5 class="card-title">Laptop Gamer MSI</h5>
+          <form action="">
+            <input id="quantity" placeholder="Ingrese cantidad" type="card-text">
+            <p>Ingrese un color:</p>
+            <select id="color" name="color">
+              <option value="blue">azul</option>
+              <option value="red">rojo</option>
+              <option value="black">negro</option>
+            </select>
+            <p>Ingrese un precio:</p>
+            <select id="price" name="precio">
+              <option value="200000">200.000 Procesador i5 7400</option>
+              <option value="400000">400.000 Procesador i7 9700k</option>
+              <option value="600000">600.000 Procesador i9 10900f</option>
+            </select>
+            <br>
+            <br>
+            <button id="buttonTotal" type="submit"> Calcular Total</button>
+          </form>
+        </div>
+      </div>
+      <div class="resultado">
+        <p id="text-total">Total: </p>
+        <p id="text-quantity">Cantidad: </p>
+        <p id="text-color">Color: </p>
+        <p id="circle"></p>
+      </div>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
